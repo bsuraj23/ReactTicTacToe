@@ -8,7 +8,7 @@ function ClockHand({ type, degrees }) {
     ></div>
   );
 }
-
+//Change this when seconds are not in progress 
 ClockHand.propTypes = {
   type: PropTypes.string.isRequired,
   degrees: PropTypes.number.isRequired,
