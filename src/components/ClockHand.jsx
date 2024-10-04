@@ -9,6 +9,7 @@ function ClockHand({ type, degrees }) {
   );
 }
 //Change this when seconds are not in progress 
+//add mroe of the base code before handling the actual clock
 ClockHand.propTypes = {
   type: PropTypes.string.isRequired,
   degrees: PropTypes.number.isRequired,
