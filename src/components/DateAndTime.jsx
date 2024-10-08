@@ -9,9 +9,5 @@ function DateAndTime({ type, degrees }) {
   );
 }
 
-ClockHand.propTypes = {
-  type: PropTypes.string.isRequired,
-  degrees: PropTypes.number.isRequired,
-};
 
 export default ClockHand;
